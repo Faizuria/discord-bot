@@ -1,0 +1,5 @@
+hikari
+lightbulb
+discord.py
+jinja2
+dotenv
