@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+name = "discord-bot"
+version = "0.1"
+packages = ["bot"]
+install_requires = [
+    "discord.py",
+    "hikari",
+    "lightbulb",
+]
